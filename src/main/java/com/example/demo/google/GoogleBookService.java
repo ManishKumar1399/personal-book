@@ -25,12 +25,12 @@ public class GoogleBookService {
                 .body(GoogleBook.class);
     }
 
-    public GoogleBook fetchBookById(String volumeId) {
+    public GoogleVolume fetchBookById(String volumeId) {
         try {
             return restClient.get()
                     .uri("/volumes/{volumeId}", volumeId)
                     .retrieve()
-                    .body(GoogleBook.class);
+                    .body(GoogleVolume.class);
         } catch (HttpClientErrorException.NotFound e) {
             return null;
         }

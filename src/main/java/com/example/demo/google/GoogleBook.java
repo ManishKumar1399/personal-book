@@ -17,18 +17,4 @@ public record GoogleBook(
     public record SearchInfo(
             String textSnippet
     ) {}
-
-    public record VolumeInfo(
-            String title,
-            List<String> authors,
-            String publishedDate,
-            String publisher,
-            Integer pageCount,
-            String printType,
-            String maturityRating,
-            List<String> categories,
-            String language,
-            String previewLink,
-            String infoLink
-    ) {}
 }

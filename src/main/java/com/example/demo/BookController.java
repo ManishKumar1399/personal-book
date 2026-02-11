@@ -4,6 +4,8 @@ import com.example.demo.db.Book;
 import com.example.demo.db.BookRepository;
 import com.example.demo.google.GoogleBook;
 import com.example.demo.google.GoogleBookService;
+import com.example.demo.google.GoogleVolume;
+import com.example.demo.google.VolumeInfo;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -37,12 +39,11 @@ public class BookController {
 
     @PostMapping("/books/{googleId}")
     public ResponseEntity<Book> createBookFromGoogleId(@PathVariable String googleId) {
-        // 1. Fetch GoogleBook
-        GoogleBook googleBook = googleBookService.fetchBookById(googleId);
+        // 1. Fetch GoogleVolume
+        GoogleVolume googleVolume = googleBookService.fetchBookById(googleId);
 
         // 2. Handle Not Found or insufficient data from Google API
-        // Check if googleBook is null, if it has items, and if the first item has volumeInfo
-        if (googleBook == null || googleBook.items() == null || googleBook.items().isEmpty() || googleBook.items().get(0).volumeInfo() == null) {
+        if (googleVolume == null || googleVolume.volumeInfo() == null) {
             return ResponseEntity.badRequest().build();
         }
 
@@ -52,7 +53,7 @@ public class BookController {
         }
 
         // 3. Map to Book Entity
-        GoogleBook.VolumeInfo volumeInfo = googleBook.items().get(0).volumeInfo();
+        VolumeInfo volumeInfo = googleVolume.volumeInfo();
         String title = volumeInfo.title();
         String author = Optional.ofNullable(volumeInfo.authors())
                                 .filter(authors -> !authors.isEmpty())
