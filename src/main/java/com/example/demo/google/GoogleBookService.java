@@ -2,6 +2,7 @@ package com.example.demo.google;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestClient;
 
 @Service
@@ -22,6 +23,17 @@ public class GoogleBookService {
                         .build())
                 .retrieve()
                 .body(GoogleBook.class);
+    }
+
+    public GoogleBook fetchBookById(String volumeId) {
+        try {
+            return restClient.get()
+                    .uri("/volumes/{volumeId}", volumeId)
+                    .retrieve()
+                    .body(GoogleBook.class);
+        } catch (HttpClientErrorException.NotFound e) {
+            return null;
+        }
     }
 }
 

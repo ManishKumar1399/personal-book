@@ -4,7 +4,7 @@ import java.util.List;
 
 public record GoogleBook(
         String kind,
-        int totalItems,
+        Integer totalItems,
         List<Item> items
 ) {
     public record Item(

@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class Book {
     /**
      * Google Books API id.
@@ -19,6 +18,13 @@ public class Book {
     private String title;
     private String author;
     private Integer pageCount;
+
+    public Book(String id, String title, String author, Integer pageCount) {
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.pageCount = pageCount;
+    }
 
     public Book(String id, String title, String author) {
         this.id = id;
