@@ -1,0 +1,170 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "ka2VUBqHiWkC",
+      "etag": "TFbKyzYwwgE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ka2VUBqHiWkC",
+      "volumeInfo": {
+        "title": "Effective Java",
+        "authors": [
+          "Joshua Bloch"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2008-05-08",
+        "description": "Are you looking for a deeper understanding of the JavaTM programming language so that you can write code that is clearer, more correct, more robust, and more reusable? Look no further! Effective JavaTM, Second Edition, brings together seventy-eight indispensable programmer’s rules of thumb: working, best-practice solutions for the programming challenges you encounter every day. This highly anticipated new edition of the classic, Jolt Award-winning work has been thoroughly updated to cover Java SE 5 and Java SE 6 features introduced since the first edition. Bloch explores new design patterns and language idioms, showing you how to make the most of features ranging from generics to enums, annotations to autoboxing. Each chapter in the book consists of several “items” presented in the form of a short, standalone essay that provides specific advice, insight into Java platform subtleties, and outstanding code examples. The comprehensive descriptions and explanations for each item illuminate what to do, what not to do, and why. Highlights include: New coverage of generics, enums, annotations, autoboxing, the for-each loop, varargs, concurrency utilities, and much more Updated techniques and best practices on classic topics, including objects, classes, libraries, methods, and serialization How to avoid the traps and pitfalls of commonly misunderstood subtleties of the language Focus on the language and its most fundamental libraries: java.lang, java.util, and, to a lesser extent, java.util.concurrent and java.io Simply put, Effective JavaTM, Second Edition, presents the most practical, authoritative guidelines available for writing efficient, well-designed programs.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780132778046"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0132778041"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 375,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 32,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.8.10.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ka2VUBqHiWkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ka2VUBqHiWkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=ka2VUBqHiWkC&printsec=frontcover&dq=effective+java&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ka2VUBqHiWkC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ka2VUBqHiWkC"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 38.99,
+          "currencyCode": "GBP"
+        },
+        "retailPrice": {
+          "amount": 27.24,
+          "currencyCode": "GBP"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ka2VUBqHiWkC&rdid=book-ka2VUBqHiWkC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 38990000,
+              "currencyCode": "GBP"
+            },
+            "retailPrice": {
+              "amountInMicros": 27240000,
+              "currencyCode": "GBP"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ka2VUBqHiWkC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Each chapter in the book consists of several “items” presented in the form of a short, standalone essay that provides specific advice, insight into Java platform subtleties, and outstanding code examples."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "12muzgEACAAJ",
+      "etag": "WL2lM4ovXrM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/12muzgEACAAJ",
+      "volumeInfo": {
+        "title": "Effective Java",
+        "authors": [
+          "Melvin Martin"
+        ],
+        "publisher": "Independently Published",
+        "publishedDate": "2021-09-28",
+        "description": "Since this Jolt-award winning classic was last updated in 2008, the Java programming environment has changed dramatically. Java 7 and Java 8 introduced new features and functions including, forEach() method in Iterable interface, default and static methods in Interfaces, Functional Interfaces and Lambda Expressions, Java Stream API for Bulk Data Operations on Collections, Java Time API, Collection API improvements, Concurrency API improvements, and Java IO improvements. In this new edition of Effective Java, Bloch explores new design patterns and language idioms that have been introduced since the second edition was released in 2008 shortly after Java SE6, including Lambda, streams, generics and collections, as well as selected Java 9 features. As in previous editions, each chapter consists of several \"items\" presented in the form of a short, standalone essay that provides specific advice, insight into Java platform subtleties, and updated code examples. The comprehensive descriptions and explanations for each item illuminate what to do, what not to do, and why. Updated techniques and best practices on classic topics, including objects, classes, libraries, methods, and serialization How to avoid the traps and pitfalls of commonly misunderstood subtleties of the language Focus on the language and its most fundamental libraries: java.lang, java.util, and, to a lesser extent,",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9798486031021"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 50,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=12muzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=12muzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=12muzgEACAAJ&dq=effective+java&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=12muzgEACAAJ&dq=effective+java&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Effective_Java.html?hl=&id=12muzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=12muzgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this new edition of Effective Java, Bloch explores new design patterns and language idioms that have been introduced since the second edition was released in 2008 shortly after Java SE6, including Lambda, streams, generics and ..."
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+image:
+  name: docker.nexusrepo.gammatelecom.com/shared/maven:eclipse-temurin-17-maven3.9.1
+  username: $NEXUS_USERNAME
+  password: $NEXUS_PASSWORD
+
+pipelines:
+  default:
+    - step:
+        name: Build and verify
+        runs-on:
+          - "self.hosted"
+          - "global"
+          - "linux"
+        caches:
+          - maven
+        script:
+          - mvn verify
+
+
